@@ -8,10 +8,16 @@ import com.damoniy.tropicalviagens.dao.PackageDAO
 import com.damoniy.tropicalviagens.ui.adapter.PackageListAdapter
 
 class TravelPackageActivity : AppCompatActivity() {
+    private val packList = PackageDAO().packageList
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_travel_package)
+        this.setContentView(R.layout.activity_travel_package)
+        this.setupList()
+    }
+
+    private fun setupList() {
         val packageList = findViewById<ListView>(R.id.travel_package_listView)
-        packageList.adapter = PackageListAdapter(this, PackageDAO().packageList)
+        packageList.adapter = PackageListAdapter(this, packList)
     }
 }
