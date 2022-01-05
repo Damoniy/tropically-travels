@@ -1,6 +1,5 @@
 package com.damoniy.tropicalviagens.utils
 
-import android.widget.TextView
 import com.damoniy.tropicalviagens.model.Pack
 import java.text.DecimalFormat
 import java.util.*

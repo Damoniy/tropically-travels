@@ -3,4 +3,8 @@
     <string name="sugeridos">Sugeridos</string>
     <string name="brasil">Brasil</string>
     <string name="sao_paulo">São Paulo</string>
+    <string name="packListBannerDescription">Banner inicial do layout</string>
+    <string name="banner">Banner</string>
+    <string name="realizar_pagamento">Realizar Pagamento</string>
+    <string name="preco_final">Preço final</string>
 </resources>

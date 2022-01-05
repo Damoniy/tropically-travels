@@ -9,6 +9,8 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/Theme.TropicalViagens">
+        <activity android:name=".ui.activity.PackDetailsActivity">
+        </activity>
         <activity android:name=".ui.activity.TravelPackageActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>

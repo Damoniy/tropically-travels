@@ -37,7 +37,9 @@
                                 app:layout_constraintEnd_toEndOf="@id/item_package_constraintLayout"
                                 app:layout_constraintVertical_bias="0"
                                 tools:src="@sample/package.json/imagem"
-                                android:scaleType="centerCrop"/>
+                                android:scaleType="centerCrop"
+                                android:contentDescription="@string/packListBannerDescription"
+                        />
                         <TextView
                                 android:id="@+id/item_package_locale"
                                 android:layout_width="wrap_content"
@@ -67,7 +69,6 @@
                         <TextView android:id="@+id/item_package_days"
                                   android:layout_width="wrap_content"
                                   android:layout_height="wrap_content"
-                                  android:text="2 dias"
                                   android:layout_margin="8dp"
                                   android:textSize="16sp"
                                   android:textStyle="bold"
@@ -79,7 +80,6 @@
                         />
 
                         <TextView android:id="@+id/item_package_value"
-                                  android:text="R$249,99"
                                   android:textColor="#00ff00"
                                   android:textSize="20sp"
                                   android:layout_width="wrap_content"
@@ -89,6 +89,7 @@
                                   app:layout_constraintStart_toStartOf="parent"
                                   android:layout_marginLeft="8dp"
                                   android:layout_marginStart="8dp"
+                                  android:layout_marginBottom="8dp"
                                   app:layout_constraintBottom_toBottomOf="parent"
                                   app:layout_constraintVertical_bias="0.0"/>
                 </androidx.constraintlayout.widget.ConstraintLayout>
